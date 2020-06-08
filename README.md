@@ -36,11 +36,6 @@ print(greet('shahrukh'))
 - ``` flask run ```
 - You should see below outcome in pycharm termimal
 ```python
-C:\Users\ahskhan\Python_flask_package>flask run
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: off
  Welcome to python flask web app dear ,shahrukh
  * Running on http://localhost:5000/ (Press CTRL+C to quit)
 
