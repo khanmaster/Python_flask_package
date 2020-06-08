@@ -8,10 +8,10 @@ def index():
 
 @app.route("/hi/")
 def who():
-    return " who are you?"
+    return " Would you like to introduce yourself ? "
 
-@app.route("/Hello/<username>")
+@app.route("/Hello/<username>/")
 def greet(username):
-    return f" Welcome to python flask web app,{username}"
+    return f" Welcome to python flask web app dear {username}"
 
-print(greet('shah'))
+print(greet('shahrukh'))
