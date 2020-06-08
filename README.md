@@ -49,7 +49,7 @@ print(greet('shahrukh'))
 - You should see welcome page
 - ```localhost:5000/hi ```
 - change the address into your browser as above
-- ```localhost:5000/Hi/Shahukh ```
+- ```localhost:5000/Hello/Shahukh ```
 - Finally check the last route if our app
 
 # AMAZING!!! 
