@@ -12,13 +12,17 @@
 
 
 ``` python
+# importing flask pakcage
 from flask import Flask
 
 app = Flask(__name__)
+# creating an app instance
 
 @app.route("/")
 def index():
     return " Welcome to python flask web app"
+# calling the method index at at the endpoint 
+# index() method will return welcome page for 
 
 @app.route("/hi/")
 def who():
